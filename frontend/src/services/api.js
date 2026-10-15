@@ -1,11 +1,25 @@
+const RENDER_API_ROOT = 'https://invoice-generator-app-ha6w.onrender.com';
+
 const getBaseUrl = () => {
+  // 1. Explicit environment variable override
+  if (import.meta.env?.VITE_API_URL) {
+    return `${import.meta.env.VITE_API_URL.replace(/\/$/, '')}/api`;
+  }
+
+  // 2. Production mode (Vercel, Netlify, Render, etc.)
+  if (import.meta.env?.PROD) {
+    return `${RENDER_API_ROOT}/api`;
+  }
+
+  // 3. Running outside localhost (e.g. mobile device, LAN IP, remote preview)
   if (typeof window !== 'undefined') {
     const hostname = window.location.hostname;
-    // When accessed from mobile or other network devices, connect directly to backend on port 5000
     if (hostname && hostname !== 'localhost' && hostname !== '127.0.0.1') {
-      return `http://${hostname}:5001/api`;
+      return `${RENDER_API_ROOT}/api`;
     }
   }
+
+  // 4. Localhost development (proxied by Vite)
   return '/api';
 };
 

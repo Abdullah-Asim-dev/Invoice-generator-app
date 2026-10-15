@@ -4,6 +4,14 @@ A modern, full-stack application designed specifically for freelancers, consulta
 
 ---
 
+## 🌐 Live Production Deployment
+
+- **Production Backend API (Render)**: [https://invoice-generator-app-ha6w.onrender.com](https://invoice-generator-app-ha6w.onrender.com)
+- **Health Check Endpoint**: [https://invoice-generator-app-ha6w.onrender.com/api/health](https://invoice-generator-app-ha6w.onrender.com/api/health)
+- **Invoices API**: [https://invoice-generator-app-ha6w.onrender.com/api/invoices](https://invoice-generator-app-ha6w.onrender.com/api/invoices)
+
+---
+
 ## 🏗️ Architecture & Tech Stack
 
 ```
