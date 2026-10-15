@@ -1,0 +1,268 @@
+[
+  {
+    "id": "69753990-ec96-4249-ab12-46ccae122a44",
+    "invoiceNumber": "INV-2026-005",
+    "status": "Draft",
+    "issueDate": "2026-10-15",
+    "dueDate": "2026-10-29",
+    "currency": "USD",
+    "sender": {
+      "name": "Abdullah Asim",
+      "company": "nike",
+      "email": "abdullahasimoffical4737@gmail.com",
+      "phone": "+1 (555) 349-8821",
+      "address": "House no 24 street no 79",
+      "city": "Lahore",
+      "state": "TX",
+      "zip": "78701",
+      "country": "United States"
+    },
+    "client": {
+      "name": "Abdullah Asim",
+      "company": "apex",
+      "email": "abdullahasimoffical4737@gmail.com",
+      "phone": "",
+      "address": "House no 24 street no 79",
+      "city": "Lahore",
+      "state": "",
+      "zip": "",
+      "country": "Pakistan"
+    },
+    "items": [
+      {
+        "id": "item-1792058657975",
+        "description": "Frontend React Development & UI Architecture",
+        "quantity": 20,
+        "rate": 75,
+        "amount": 1500
+      }
+    ],
+    "subtotal": 1500,
+    "discountRate": 0,
+    "discountAmount": 0,
+    "taxRate": 5,
+    "taxAmount": 75,
+    "total": 1575,
+    "notes": "Payment is due within 14 days of invoice date. Thank you for your partnership!",
+    "paymentDetails": "ACH / Wire Transfer: Bank of America | Routing: 121000358 | Account: 48301928492",
+    "createdAt": "2026-10-15T10:05:39.124Z",
+    "updatedAt": "2026-10-15T10:05:39.124Z"
+  },
+  {
+    "id": "inv-001",
+    "invoiceNumber": "INV-2026-001",
+    "status": "Paid",
+    "issueDate": "2026-03-10",
+    "dueDate": "2026-03-24",
+    "currency": "USD",
+    "sender": {
+      "name": "Alex Rivera",
+      "company": "Rivera Cloud & Code Studios",
+      "email": "alex@riveradev.com",
+      "phone": "+1 (555) 349-8821",
+      "address": "742 Evergreen Terrace, Suite 400",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "United States"
+    },
+    "client": {
+      "name": "Sarah Jenkins",
+      "company": "Apex Global Solutions Inc.",
+      "email": "s.jenkins@apexsolutions.io",
+      "phone": "+1 (555) 789-0123",
+      "address": "1200 Innovation Parkway, Fl 18",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94107",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "id": "item-1",
+        "description": "Full-Stack Web Application Architecture & React Frontend",
+        "quantity": 40,
+        "rate": 85,
+        "amount": 3400
+      },
+      {
+        "id": "item-2",
+        "description": "Node.js REST API & Payment Gateway Integration",
+        "quantity": 20,
+        "rate": 90,
+        "amount": 1800
+      }
+    ],
+    "subtotal": 5200,
+    "discountRate": 5,
+    "discountAmount": 260,
+    "taxRate": 8,
+    "taxAmount": 395.2,
+    "total": 5335.2,
+    "notes": "Thank you for partnering with Rivera Cloud & Code Studios! Please remit payment within 14 days of receipt.",
+    "paymentDetails": "Wire Transfer: Bank of America | Routing: 121000358 | Account: 48301928492 | SWIFT: BOFAUS3N",
+    "createdAt": "2026-03-10T09:30:00.000Z",
+    "updatedAt": "2026-03-12T14:20:00.000Z"
+  },
+  {
+    "id": "inv-002",
+    "invoiceNumber": "INV-2026-002",
+    "status": "Pending",
+    "issueDate": "2026-04-01",
+    "dueDate": "2026-04-15",
+    "currency": "USD",
+    "sender": {
+      "name": "Alex Rivera",
+      "company": "Rivera Cloud & Code Studios",
+      "email": "alex@riveradev.com",
+      "phone": "+1 (555) 349-8821",
+      "address": "742 Evergreen Terrace, Suite 400",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "United States"
+    },
+    "client": {
+      "name": "David Sterling",
+      "company": "Sterling Fintech Labs",
+      "email": "finance@sterlingfintech.com",
+      "phone": "+1 (555) 902-3341",
+      "address": "55 Wall Street, 24th Floor",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10005",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "id": "item-1",
+        "description": "Smart Contract Auditing & Security Hardening",
+        "quantity": 25,
+        "rate": 110,
+        "amount": 2750
+      },
+      {
+        "id": "item-2",
+        "description": "GraphQL Microservices Integration & Testing",
+        "quantity": 15,
+        "rate": 95,
+        "amount": 1425
+      }
+    ],
+    "subtotal": 4175,
+    "discountRate": 0,
+    "discountAmount": 0,
+    "taxRate": 7,
+    "taxAmount": 292.25,
+    "total": 4467.25,
+    "notes": "Net 15 payment terms. Please include Invoice # INV-2026-002 in payment remarks.",
+    "paymentDetails": "ACH / Wire: Chase Commercial | Routing: 021000021 | Account: 9871236541",
+    "createdAt": "2026-04-01T11:00:00.000Z",
+    "updatedAt": "2026-04-01T11:00:00.000Z"
+  },
+  {
+    "id": "inv-003",
+    "invoiceNumber": "INV-2026-003",
+    "status": "Pending",
+    "issueDate": "2026-04-05",
+    "dueDate": "2026-04-20",
+    "currency": "USD",
+    "sender": {
+      "name": "Alex Rivera",
+      "company": "Rivera Cloud & Code Studios",
+      "email": "alex@riveradev.com",
+      "phone": "+1 (555) 349-8821",
+      "address": "742 Evergreen Terrace, Suite 400",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "United States"
+    },
+    "client": {
+      "name": "Elena Rostova",
+      "company": "HyperGrowth Marketing",
+      "email": "billing@hypergrowth.agency",
+      "phone": "+1 (555) 431-7729",
+      "address": "880 Harrison St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98109",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "id": "item-1",
+        "description": "High-Converting Landing Page Design & Webflow Build",
+        "quantity": 1,
+        "rate": 1850,
+        "amount": 1850
+      },
+      {
+        "id": "item-2",
+        "description": "Analytics Tracking, Pixel Setup & Page Speed Optimization",
+        "quantity": 8,
+        "rate": 75,
+        "amount": 600
+      }
+    ],
+    "subtotal": 2450,
+    "discountRate": 10,
+    "discountAmount": 245,
+    "taxRate": 6.5,
+    "taxAmount": 143.33,
+    "total": 2348.33,
+    "notes": "Thank you for choosing Rivera Cloud & Code Studios. Prompt payment is appreciated.",
+    "paymentDetails": "PayPal: payments@riveradev.com or Stripe Invoice Link",
+    "createdAt": "2026-04-05T14:15:00.000Z",
+    "updatedAt": "2026-04-05T14:15:00.000Z"
+  },
+  {
+    "id": "inv-004",
+    "invoiceNumber": "INV-2026-004",
+    "status": "Draft",
+    "issueDate": "2026-04-12",
+    "dueDate": "2026-04-26",
+    "currency": "USD",
+    "sender": {
+      "name": "Alex Rivera",
+      "company": "Rivera Cloud & Code Studios",
+      "email": "alex@riveradev.com",
+      "phone": "+1 (555) 349-8821",
+      "address": "742 Evergreen Terrace, Suite 400",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "United States"
+    },
+    "client": {
+      "name": "Marcus Vance",
+      "company": "Vance BioTech",
+      "email": "m.vance@vancebiotech.org",
+      "phone": "+1 (555) 654-9810",
+      "address": "400 Bio Parkway, Suite 10",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02115",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "id": "item-1",
+        "description": "Genomic Data Visualization Dashboard Prototype",
+        "quantity": 15,
+        "rate": 95,
+        "amount": 1425
+      }
+    ],
+    "subtotal": 1425,
+    "discountRate": 0,
+    "discountAmount": 0,
+    "taxRate": 6.25,
+    "taxAmount": 89.06,
+    "total": 1514.06,
+    "notes": "Draft estimate for Sprint 1 milestones.",
+    "paymentDetails": "Direct Deposit / Wire details available upon final invoice confirmation.",
+    "createdAt": "2026-04-12T16:00:00.000Z",
+    "updatedAt": "2026-04-12T16:00:00.000Z"
+  }
+]

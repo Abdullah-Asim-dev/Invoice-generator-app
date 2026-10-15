@@ -1,0 +1,26 @@
+{
+  "name": "freelance-invoice-generator-workspace",
+  "version": "1.0.0",
+  "description": "Full-stack Freelance Invoice Generator with Express, PDFKit, React and Tailwind CSS",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "qr": "node show-qr.js"
+  },
+  "keywords": [
+    "invoice",
+    "freelance",
+    "pdf",
+    "express",
+    "react",
+    "tailwind"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
