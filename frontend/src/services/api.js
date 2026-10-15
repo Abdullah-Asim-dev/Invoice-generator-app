@@ -1,29 +1,9 @@
-const RENDER_API_ROOT = 'https://invoice-generator-app-ha6w.onrender.com';
+// Official Production Render Backend
+export const PROD_BACKEND_URL = 'https://invoice-generator-app-ha6w.onrender.com';
 
-const getBaseUrl = () => {
-  // 1. Explicit environment variable override
-  if (import.meta.env?.VITE_API_URL) {
-    return `${import.meta.env.VITE_API_URL.replace(/\/$/, '')}/api`;
-  }
+// Permanently mapped base API endpoint for all network requests
+const BASE_URL = `${(import.meta.env?.VITE_API_URL || PROD_BACKEND_URL).replace(/\/$/, '')}/api`;
 
-  // 2. Production mode (Vercel, Netlify, Render, etc.)
-  if (import.meta.env?.PROD) {
-    return `${RENDER_API_ROOT}/api`;
-  }
-
-  // 3. Running outside localhost (e.g. mobile device, LAN IP, remote preview)
-  if (typeof window !== 'undefined') {
-    const hostname = window.location.hostname;
-    if (hostname && hostname !== 'localhost' && hostname !== '127.0.0.1') {
-      return `${RENDER_API_ROOT}/api`;
-    }
-  }
-
-  // 4. Localhost development (proxied by Vite)
-  return '/api';
-};
-
-const BASE_URL = getBaseUrl();
 
 /**
  * Helper to handle JSON responses
